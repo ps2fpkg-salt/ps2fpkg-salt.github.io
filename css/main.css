@@ -1,0 +1,67 @@
+@font-face {
+  font-family: 'A';
+  src: URL('BTABSSOM.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'B';
+  src: URL('PWSchoolScript.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'C';
+  src: URL('BHOMA.TTF') format('truetype');
+}
+
+header h1{
+ text-align:center;
+ font-size:65px;
+ font-family:B;
+}
+.w3-navy{
+ background:green;
+ color:white;
+}
+header{
+}
+img{
+ width:100%;
+ height:100%;
+ text-align:center;
+}
+.w3-quarter{
+ text-align:center;
+ min-height:400px;
+}
+
+h6{
+ font-family:A;
+}
+.w3-btn-block{
+ font-family:C;
+ font-size:20px;
+}
+.line{
+ margin-top:24px;
+}
+.txt {
+ text-align:center;
+ font-family:B;
+}
+.txt p{
+ padding:0px;
+ font-size:30px;
+ direction:rtl;
+}
+.txt a{
+ color:blue;
+ text-decoration:none;
+}
+footer {
+ text-align:center;
+}
+.tel {
+ width:30px;
+ margin-left:4px;
+}
+a , a:active ,a:visited {
+ color:#6E7DFF !important;
+}
