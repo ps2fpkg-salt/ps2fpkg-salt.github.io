@@ -93,6 +93,7 @@ a , a:active , a:visited , a:hover{
 }
 .card-title {
  direction:ltr;
+ font-weight:bold;
 }
 @media (max-width: 767px) {
  .title h6{
