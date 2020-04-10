@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>این ارور 404 نیست</title>
+<style type="text/css">
+ body {
+ margin:0;
+ padding:0;
+ background:#FFF9C4;
+ text-align:center;
+ direction:rtl;
+ }
+ .text {
+  width:80%;
+  height:80%;
+  font-size:80%;
+  margin-top:40%;
+  margin-right:8%;
+  padding:10px;
+  background:#FFF59D;
+  font-weight:900;
+ }
+ .text p{
+  text-align:justify;
+  font-size:130%;
+  font-weight:500;
+ }
+</style>
+</head>
+<body>
+ <div class="text" >
+  <h1>این صفحه منتقل شده است</h1>
+  <p>کاربر عزیز این صفحه انتقال یافته است.<br>
+   اگر تا
+    <span id="num" >10</span>
+    ثانیه دیگر به صفحه جدید هدایت نشدید <a href="http://psfourhax.rf.gd/" > اینجا</a> کلیک کنید.</p>
+ </div>
+ <script type="text/javascript">
+ var num = 10;
+ function change(){
+  document.getElementById("num").innerHTML = num;
+  num--;
+  if(document.getElementById("num").innerHTML=="0"){
+  clearInterval(inter);
+  window.location.assign("http://psfourhax.rf.gd/");
+  }
+ }
+ var inter= setInterval(change,1000);
+  
+ </script>
+</body>
+</html>
