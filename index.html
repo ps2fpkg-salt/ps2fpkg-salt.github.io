@@ -1,62 +1,45 @@
 <!DOCTYPE html>
-<html>
+<html dir="rtl" >
 <head>
- <meta charset="utf-8">
- <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>این ارور 404 نیست</title>
+<meta charset="UTF-8">
+<title></title>
 <style type="text/css">
- body {
- margin:0;
- padding:0;
- background:#FFF9C4;
- text-align:center;
- direction:rtl;
- }
- .text {
+body {
+ background:black;
+}
+ div {
   width:80%;
   height:80%;
-  font-size:190%;
-  margin-right:8%;
-  padding:10px;
-  background:#FFF59D;
-  font-weight:900;
- }
- .text p{
   text-align:justify;
-  font-size:160%;
-  font-weight:500;
+  margin-top:2%;
+  color:white;
+  background:url("bg.jpg");
+  background-size:cover;
+  background-position:20%;
+  padding:20px;
+  border:5px dashed white;
+  border-radius:20px;
  }
- 
- @media (max-width: 767px) {
-  .text{
-  font-size:80%;
-  }
-  .text p{
-  font-size:120%;
-  }
+ #salt {
+  text-align:center;
  }
 </style>
 </head>
 <body>
- <div class="text" >
-  <h1>این صفحه منتقل شده است</h1>
-  <p>کاربر عزیز این صفحه انتقال یافته است.<br>
-   اگر تا
-    <span id="num" >10</span>
-    ثانیه دیگر به صفحه جدید هدایت نشدید <a href="http://psfourhax.rf.gd/" > اینجا</a> کلیک کنید.</p>
- </div>
- <script type="text/javascript">
- var num = 10;
- function change(){
-  document.getElementById("num").innerHTML = num;
-  num--;
-  if(document.getElementById("num").innerHTML=="0"){
-  clearInterval(inter);
-  window.location.assign("http://psfourhax.rf.gd/");
-  }
- }
- var inter= setInterval(change,1000);
-  
- </script>
+ <center>
+ <div>
+   <h1>
+    با سلام ، این وبسایت ، گروه و دو کانال تلگرامی ما بدلیل قدر نشناسی ، بی انصافی و خودخواهی بعضی از افراد که منافع خودشان را به منافع عموم ترجیح داده و پر کاهی نیز برای فعالیتهای رایگان ما ارزش قائل نبودند بطور کامل بسته شد و دیگر هیچگونه فعالیتی برای عموم در تلگرام تحت عنوان گروه و کانال ندارد.
+    <br>
+    <br>
+    همچنین بدین وسیله اعلام میداریم هر گونه تبلیغات عمومی در تلگرام با نام مشابه لوگوی سابق کانال ها و گروه ما از جانب ما نبوده و اینکار صرفا به هدف جذب عضو توسط افراد سودجو و فرصت طلب انجام میپذیرد .
+    <br>
+    <br>
+    با تشکر ، از طرف تیم مدیریت گروه و کانال جیلبریک PS4
+   </h1>
+   <br><br>
+   <h1 id="salt" >SALT</h1>
+   </div>
+ </center>
 </body>
 </html>
